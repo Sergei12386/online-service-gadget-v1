@@ -1,0 +1,70 @@
+﻿body {
+	width: 280px;
+	height: 210px;
+	font-size: 12px !important;
+}
+
+p {
+	margin: 6px 0 6px 0;
+	padding: 0;
+}
+
+input {
+	font-size: 12px;
+}
+
+#enterUserInfoHeader {
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+input#urlTextbox {
+	width: auto;
+}
+
+input.TextBox {
+	width: 90%;
+}
+
+#scrollDelaySelect {
+	font-size: 12px;
+}
+
+#SettingsCopyright {
+	position: absolute;
+	bottom: 0;
+	float: left;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+#SettingsCopyright table {
+	width: 96%;
+}
+
+.bLinks {
+	clear: both;
+	width: 100%;
+	margin: 0 0 4px 0;
+	text-align: center;
+}
+
+#txtState,
+#txtCity {
+	width: 140px;
+}
+
+.bLinks a {
+	display: block;
+	float: left;
+	margin: 0 4px;
+	color: #000;
+	font-size: 11px;
+	white-space: nowrap;
+}
+
+.LargeDark {
+	font-size: 10px;
+}

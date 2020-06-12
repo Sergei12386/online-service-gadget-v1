@@ -1,0 +1,253 @@
+﻿body {
+	font-family: Tahoma, sans-serif, Arial;
+	font-size: 8pt;
+	color: Black;
+	background-color: #fff;
+}
+
+.betatag {
+	color: #7d0d00;
+}
+
+.betatagtitle {
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: normal;
+	padding-left: 4px;
+	padding-bottom: 6px;
+	position: relative;
+	top: -3px;
+}
+
+.logoHolderTop {
+	float: left;
+	padding-top: 10px;
+}
+
+.logoHolderBottom {
+	float: right;
+	clear: both;
+	position: fixed;
+	top: 0px;
+}
+
+.liveText {
+	color: #FFFFFF;
+	letter-spacing: 0.02em;
+	font-size: 7pt;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+body#gadget.docked {
+	/* width and height in css are ignored. set programmatically.
+	width: 120px;
+	height: 280px;*/
+}
+
+body#gadget.undocked {
+	/* width and height in css are ignored. set programmatically.
+	width: 400px;
+	height: 400px;*/
+}
+
+a {
+	color: #1D7BD1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+div#gadgetHeader {
+	text-align: center;
+	font-size: 120%;
+	line-height: 100%;
+	margin-top: 5px;
+	margin: 0
+}
+
+div#gadgetHeader .c_tm {
+	font-size: 8px;
+	vertical-align: 4px;
+}
+
+body#gadget.docked div#gadgetContent {}
+
+body#gadget.undocked div#gadgetContent {}
+
+div#gadgetBody {
+	overflow: hidden;
+}
+
+body#gadget.undocked div#gadgetBody {
+	margin: 30px 3px 3px 3px;
+	width: 373px;
+	height: 360px;
+}
+
+body#gadget.docked span#dockedHeader {
+	display: inline;
+}
+
+body#gadget.undocked span#dockedHeader {
+	display: none;
+}
+
+body#gadget.docked span#undockedHeader {
+	display: none;
+}
+
+body#gadget.undocked span#undockedHeader {
+	display: inline;
+}
+
+p#messages {
+	margin: 5px 2px 0 2px;
+	background-color: #ffffad;
+	border: solid 1px #999;
+	padding: 10px;
+	font-size: 11px;
+}
+
+body#gadget.docked ul#whatsNewFeed {
+	margin: 0px 0px 0px 5px;
+	list-style-type: none;
+}
+
+body#gadget.undocked ul#whatsNewFeed {
+	margin: 0px 10px 0px 10px;
+	list-style-type: none;
+}
+
+ul#whatsNewFeed li {
+	list-style-image: url('../images/right_bullet_arrow.png');
+	border-bottom: dotted 1px #b1cfdd;
+	padding: 2px 0 4px 0;
+	margin-bottom: 4px;
+}
+
+ul#whatsNewFeed li li {
+	border: none;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+
+ul#whatsNewFeed li div.whatsNewEntryTitle {
+	font-family: Tahoma, sans-serif, Arial;
+	font-size: 8pt;
+}
+
+ul#whatsNewFeed li div.whatsNewEntryContent {
+	font-family: Tahoma, sans-serif, Arial;
+	font-size: 8pt;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+
+ul#whatsNewFeed li div.whatsNewEntryContent img {
+	padding: 0 5px 5px 0;
+}
+
+ul#whatsNewFeed li span.whatsNewEntryClear {
+	clear: both;
+}
+
+div.gadgetLabel {
+	color: #0768ac;
+}
+
+div#gadgetNav a#navDown {
+	background: transparent url('../images/next_arrow_a.png') no-repeat top left;
+	float: right;
+	width: 24px;
+	height: 24px;
+}
+
+div#gadgetNav a#navDown:hover {
+	background: transparent url('../images/next_arrow_b.png') no-repeat top left;
+}
+
+div#gadgetNav a#navLogo {
+	width: 27px;
+	height: 24px;
+	display: block;
+}
+
+div#gadgetNav a#navLogo {
+	background: transparent url('../images/windows_flag_27x24.png') no-repeat top left;
+}
+
+div#gadgetNav a#navLogo:hover {
+	background: transparent url('../images/windows_flag_27x24.png') no-repeat top left;
+}
+
+div#gadgetNav a#navPlay {
+	background: transparent url('../images/play_rest.png') no-repeat top left;
+}
+
+div#gadgetNav a#navPlay:hover {
+	background: transparent url('../images/play_hov.png') no-repeat top left;
+}
+
+div#gadgetNav a#navUp {
+	background: transparent url('../images/back_arrow_a.png') no-repeat top left;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-top: 0;
+	margin-left: 2px;
+}
+
+div#gadgetNav a#navUp:hover {
+	background: transparent url('../images/back_arrow_b.png') no-repeat top left;
+}
+
+body#gadget.docked div#gadgetFooter {
+	padding-top: 2px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+body#gadget.undocked div#gadgetFooter {
+	padding-top: 12px;
+	text-align: center;
+}
+
+body#gadget.docked div#gadgetNav {
+	width: 55px;
+	margin-left: 70%;
+	margin-right: 30%;
+	text-align: center;
+}
+
+body#gadget.undocked div#gadgetNav {
+	width: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+body#gadget.docked .win7Image {
+	height: 14px;
+	width: 75px;
+	left: 6px;
+	top: 225px;
+	position: absolute;
+	cursor: pointer;
+}
+
+body#gadget.undocked .win7Image {
+	height: 24px;
+	width: 138px;
+	left: 16px;
+	top: 300px;
+	position: absolute;
+	cursor: pointer;
+}

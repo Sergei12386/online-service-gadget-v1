@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta name="Build" content="1.0.0527.10" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<title>Gadget Settings</title>
+	<link rel="stylesheet" href="css/Core.css" type="text/css" />
+	<link rel="stylesheet" href="css/Settings.css" type="text/css" />
+
+	<script type="text/javascript">
+		function tag(url) {
+			var requestObj = new XMLHttpRequest();
+			requestObj.open("GET", url, true, null);
+			requestObj.send(null);
+		}
+	</script>
+</head>
+
+<body id="gadgetSettings" unselectable="unselectable" scroll="no" onload="loadPage();">
+	<script src="./js/localizationStrings.js" language="javascript" type="text/javascript"></script>
+	<script type="text/javascript" src="./js/sscorlib.js"></script>
+	<script type="text/javascript" src="./js/ssfx.Core.js"></script>
+	<script type="text/javascript" src="./js/ssfx.UI.Forms.js"></script>
+	<script type="text/javascript" src="./js/ssgadgets.js"></script>
+	<script type="text/javascript" src="./js/WhatsNewGadget.js"></script>
+	<script src="./js/settings.js" language="javascript" type="text/javascript"></script>
+	<div id="userInfo">
+		<h4 id="userInfoHeader" style="margin-bottom:5px"></h4>
+		<p>
+			<span id="userLabel">&nbsp;</span>
+			<span id="memberName"></span>
+		</p>
+		<a href="javascript:void(0)" id="changeUser"></a>
+	</div>
+	<div id="loginForm">
+		<h4 id="enterUserInfoHeader"></h4>
+		<p>
+			<label id="usernameLabel" for="urlTextbox">&nbsp;</label>
+			<br />
+			<input type="text" id="uid" class="TextBox" />
+			<br />
+			<label id="uidExplanation" for="urlTextbox">&nbsp;</label>
+			<br />
+			<br />
+			<label id="passwordLabel" for="urlTextbox">&nbsp;</label>
+			<br />
+			<input type="password" id="password" class="TextBox" />
+			<br />
+			<span id="errors"></span>
+			<button type="button" id="getWhatsNewURL" style="display:none;">&nbsp;</button>
+		</p>
+	</div>
+	<div id="settingsForm" class="hidden">
+		<hr />
+		<!-- <p>
+			<label id="scrollDelayLabel" for="scrollDelaySelect">&nbsp;</label>
+			<select id="scrollDelaySelect"></select>
+		</p> -->
+		<p>
+			<input type="checkbox" id="detailCheckbox" />
+			<label id="detailCheckboxLabel" for="detailCheckbox">&nbsp;</label>
+			<br />
+			(&nbsp;<label id="detailCheckBoxNote"></label>)
+		</p>
+		<p>
+			<a href="http://home.services.spaces.live.com/" id="whatsnewLink" onmousedown="tag('http://switch.atdmt.com/action/riax_windowslive/v3/location.settings/action.click/actionname.changesettings/var1.gadget/country.tw');"></a>
+		</p>
+	</div>
+
+	<div id="SettingsCopyright">
+		<div class="bLinks">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<a id="TosLink"></a>
+					</td>
+					<td>
+						<a id="CocLink"></a>
+					</td>
+					<td>
+						<a id="PrivacyLink"></a>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td align="center">
+						<span id="SettingsWindowsLive" class="LargeDark"></span>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<span id="SettingsMicrosoftCopyright" class="LargeDark"></span>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<span id="SettingsAllRightsReserved" class="LargeDark"></span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+</html>

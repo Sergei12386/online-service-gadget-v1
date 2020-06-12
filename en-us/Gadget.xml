@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>Online Services Gadget</name>
+	<namespace>WhatsNewGadget</namespace>
+	<version>1.0.0527.10</version>
+	<author name="Windows Live">
+		<info url="http://home.live.com/" />
+		<logo src="images/icon.png" />
+	</author>
+	<copyright>Copyright (c) 2010</copyright>
+	<description>Links to MSN, Windows Live Services, What's New, News feeds, Bing Search - All automatically delivered to your desktop.</description>
+	<icons>
+		<icon height="64" width="64" src="images/icon.png" />
+	</icons>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0.0" src="Gadget.html" />
+			<permissions>Full</permissions>
+			<platform minPlatformVersion="1.0" />
+			<defaultImage src="Gadget.png" />
+		</host>
+	</hosts>
+</gadget>

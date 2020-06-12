@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=big5" />
+	<title>Gadget</title>
+	<link rel="stylesheet" href="css/Core.css" type="text/css" />
+	<link rel="stylesheet" href="css/Gadget.css" type="text/css" />
+	<link rel="stylesheet" href="tw2_gadget.css" type="text/css" />
+	<style type="text/css">
+		body#gadget.undocked div#search_input_none {
+			display: none;
+		}
+
+		body#gadget.undocked div#rss_text_none {
+			display: none;
+		}
+
+		body#gadget.undocked div#ad_text_none {
+			display: none;
+		}
+	</style>
+	<script src="./js/localizationStrings.js" language="javascript" type="text/javascript"></script>
+	<script src="./js/loadstrings.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body id="gadget" class="docked" unselectable="unselectable" scroll="no" onload="loadStrings();" onmouseover="bringFocus();">
+	<script type="text/javascript" src="./js/sscorlib.js"></script>
+	<script type="text/javascript" src="./js/ssfx.Core.js"></script>
+	<script type="text/javascript" src="./js/ssfx.UI.Forms.js"></script>
+	<script type="text/javascript" src="./js/ssgadgets.js"></script>
+	<script type="text/javascript" src="./js/WhatsNewGadget.js"></script>
+	<div id="main_color">
+		<g:background id="main_color_background" src="images/color_bg_heigh.png" style="width: 182px; height: 400px; margin: 0px auto 0px auto; position: absolute; background-repeat: no-repeat; z-index: 2;">
+			<div style="margin:330px auto 0px 5px;">
+				<div id="main_color_title" class="color_title"></div>
+				<!-- Color Menu button -->
+				<div id="main_color_icon">
+					<div id="main_color1"><a id="selectColor1" href="javascript:;" onclick="selectColor('1')"></a></div>
+					<div id="main_color2"><a id="selectColor2" href="javascript:;" onclick="selectColor('2')"></a></div>
+					<div id="main_color3"><a id="selectColor3" href="javascript:;" onclick="selectColor('3')"></a></div>
+					<div id="main_color4"><a id="selectColor4" href="javascript:;" onclick="selectColor('4')"></a></div>
+					<div id="main_color5"><a id="selectColor5" href="javascript:;" onclick="selectColor('5')"></a></div>
+					<div id="main_color6"><a id="selectColor6" href="javascript:;" onclick="selectColor('6')"></a></div>
+					<div id="main_color7"><a id="selectColor7" href="javascript:;" onclick="selectColor('7')"></a></div>
+					<div class="clean"></div>
+				</div>
+				<div id="main_color_button">
+					<div id="main_color_ok"><a href="javascript:;" onclick="changeBg()"></a></div>
+					<div id="main_color_close"><a href="javascript:;" onclick="closeAll()"></a></div>
+					<div class="clean"></div>
+				</div>
+			</div>
+		</g:background>
+	</div>
+	<div id="main_rss">
+		<!-- RSS titlebar -->
+		<g:background id="main_rss_background" src="images/rss_outbg.png" style="width: 175px; height: 264px; overflow: hidden; position: absolute; z-index: 1;">
+			<div id="main_rss_bookingall">
+				<div id="rss_booking_icon"></div>
+				<div id="rss_booking_text"></div>
+				<div class="clean"></div>
+			</div>
+			<!-- ICON -->
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox1" value=checkbox1Value />
+				</label>
+				<span id="rssIconSpan1"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox2" value=checkbox2Value />
+				</label>
+				<span id="rssIconSpan2"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox3" value=checkbox3Value />
+				</label>
+				<span id="rssIconSpan3"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox4" value=checkbox4Value />
+				</label>
+				<span id="rssIconSpan4"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox5" value=checkbox5Value />
+				</label>
+				<span id="rssIconSpan5"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox6" value=checkbox6Value />
+				</label>
+				<span id="rssIconSpan6"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox7" value=checkbox7Value />
+				</label>
+				<span id="rssIconSpan7"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox8" value=checkbox8Value />
+				</label>
+				<span id="rssIconSpan8"></span>
+			</div>
+			<div class="rss_icon1">
+				<label>
+					<input type="checkbox" name="checkbox" id="checkbox9" value=checkbox9Value />
+				</label>
+				<span id="rssIconSpan9"></span>
+			</div>
+			<div class="clean"></div>
+			<!-- Menu button to turn off / Apply -->
+			<div id="main_rss_button">
+				<div id="main_rss_ok">
+					<a href="javascrip:;" onclick="changeBk()"></a>
+				</div>
+				<div id="main_rss_close">
+					<a href="javascript:;" onclick="closeAll()"></a>
+				</div>
+				<div class="clean"></div>
+			</div>
+		</g:background>
+	</div>
+	<div id="main_all_layout">
+		<g:background id="background">
+			<div id="gadgetContent">
+				<div id="main_logo"></div>
+				<div id="main_icon_layout">
+					<div id="main_icon1"><a href="javascrip:;" id="main_iconAnchor1" title="" onclick="openHref(main_icon1Link )"></a></div>
+					<div id="main_icon2"><a href="javascrip:;" id="main_iconAnchor2" title="" onclick="openHref(main_icon2Link )"></a></div>
+					<div id="main_icon3"><a href="javascrip:;" id="main_iconAnchor3" title="" onclick="openHref(main_icon3Link )"></a></div>
+					<div id="main_icon4"><a href="javascrip:;" id="main_iconAnchor4" title="" onclick="openHref(main_icon4Link )"></a></div>
+					<div id="main_icon5"><a href="javascrip:;" id="main_iconAnchor5" title="" onclick="openHref(main_icon5Link )"></a></div>
+					<div id="main_icon6"><a href="javascrip:;" id="main_iconAnchor6" title="" onclick="openHref(main_icon6Link )"></a></div>
+					<div id="main_icon7"><a href="javascrip:;" id="main_iconAnchor7" title="" onclick="openHref(main_icon7Link )"></a></div>
+					<div class="clean"></div>
+				</div>
+				<div id="main_search_all">
+					<div id="main_search_left">
+						<input type="text" style="border: medium none ; width: 200px; height: 15px; margin-top: 1px; margin-left: 2px; background-image: url(images/search_bar.png); background-repeat: no-repeat; background-position: right center; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(102, 102, 102);" name="q2" id="q2" onkeydown="isEnter()" onblur="applyBingLarge();" />
+					</div>
+					<div id="main_search_right" onclick="doSearch2()"></div>
+					<div class="clean"></div>
+				</div>
+				<div id="main_rss_all">
+					<div id="main_rss_left">
+						<a href="javascript:;" onclick="openBk()"></a>
+					</div>
+					<div align="center" id="main_rss_right">
+						<marquee scrollamount="3" scrolldelay="60" onmouseover="this.scrollAmount=2" onmouseout="this.scrollAmount=3">
+							<div id="rss_main_marquee" style="margin-top:5px;"></div>
+						</marquee>
+					</div>
+					<div class="clean"></div>
+				</div>
+				<div id="small_logo"></div>
+				<div id="icon_layout_all">
+					<div id="icon_button1">
+						<a href="javascrip:;" id="icon_buttonAnchor1" title="" onclick="openHref(main_icon1Link)"></a>
+					</div>
+					<div id="icon_button2">
+						<a href="javascrip:;" id="icon_buttonAnchor2" title="" onclick="openHref(main_icon2Link)"></a>
+					</div>
+					<div id="icon_button3">
+						<a href="javascrip:;" id="icon_buttonAnchor3" title="" onclick="openHref(main_icon3Link)"></a>
+					</div>
+					<div id="icon_button4">
+						<a href="javascrip:;" id="icon_buttonAnchor4" title="" onclick="openHref(main_icon5Link)"></a>
+					</div>
+					<div id="icon_button5">
+						<a href="javascrip:;" id="icon_buttonAnchor5" title="" onclick="openHref(main_icon4Link)"></a>
+					</div>
+				</div>
+				<div id="search_all">
+					<div align="center" id="search_left">
+						<div id="search_input_none">
+							<input id="searchOneInput1" type="hidden" value="" name="FORM" />
+							<input type="hidden" value="950" name="cp" />
+							<input type="text" style="border: medium none ; width: 100px; height: 17px; margin-top: 1px; background-image: url(images/search_bar.png); background-repeat: no-repeat; background-position: right center; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; color: rgb(102, 102, 102);" name="q" id="q" onkeydown="isEnterOne()" onblur="applyBingSmall();" />
+						</div>
+					</div>
+					<div id="search_right" onclick="doSearch()"></div>
+				</div>
+				<div class="clean"></div>
+				<div id="rss_bg">
+					<div align="center" id="rss_textin">
+						<div id="rss_text_none">
+							<marquee scrollamount="3" scrolldelay="60" id="rss_small_marquee" onmouseover="this.scrollAmount=2" onmouseout="this.scrollAmount=3"></marquee>
+						</div>
+					</div>
+				</div>
+				<div id="friend_layout_all">
+					<div id="friend_titlebg">
+						<div id="friend_title">
+							<div id="friend_topbutton">
+								<a href="javascript:void(0);" id="navUp" title="Up"></a>
+							</div>
+							<div id="friend_text"></div>
+							<div id="friend_bottom">
+								<a href="javascript:void(0);" id="navDown" title="Down"></a>
+								<a href="javascript:void(0);" id="navPause" style="display: none;"></a>
+							</div>
+							<div class="clean"></div>
+						</div>
+					</div>
+					<div id="gadgetBody">
+						<p id="messages" class="hidden"></p>
+						<ul id="whatsNewFeed"></ul>
+					</div>
+					<div id="friend_bottom_bg"></div>
+				</div>
+				<div class="win7Image" onclick="openWin7();"></div>
+				<a href="javascrip:;" onclick="openHref(homeLink)">
+					<div id="msn_qa"></div>
+				</a>
+				<div class="clean"></div>
+				<div id="ad_text_none">
+					<div id="ad_text_div" class="ad_text"></div>
+				</div>
+			</div>
+			<div id="main_bottom_all">
+				<div id="main_color_icon7" title="">
+					<a href="javascript:;" onclick="openColor()"></a>
+				</div>
+				<div class="rss_text" id="main_adtext"></div>
+				<div id="main_msnqa">
+					<a href="javascrip:;" onclick="openHref(homeLink)"></a>
+				</div>
+				<div class="clean"></div>
+			</div>
+		</g:background>
+	</div>
+	<script type="text/javascript" language="javascript" src="./js/generateAd.js"></script>
+</body>
+
+</html>

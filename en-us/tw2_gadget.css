@@ -1,0 +1,1150 @@
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.clean {
+	clear: both
+}
+
+/* Small Gadget layout*/
+
+#small_gadget_ayout {
+	width: 135px;
+	height: 305px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* LOGO */
+
+body#gadget.docked div#small_logo {
+	width: 95px;
+	height: 20px;
+	background: url(images/layout.png) no-repeat;
+	margin: 3px auto auto 5px;
+	float: left;
+}
+
+/* Color Button */
+
+#color_button a {
+	width: 30px;
+	height: 28px;
+	margin: 0px 0px auto auto;
+	float: right;
+	background: url(images/color_button1.png) no-repeat;
+	display: block;
+}
+
+#color_button a:hover {
+	width: 30px;
+	height: 28px;
+	margin: 0px 0px auto auto;
+	float: right;
+	background: url(images/color_button2.png) no-repeat;
+	display: block;
+}
+
+/* Icon Layout */
+
+body#gadget.docked div#icon_layout_all {
+	width: 130px;
+	margin: 1px auto 3px auto;
+	overflow: hidden;
+}
+
+body#gadget.docked div#icon_button1 a {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_msntoday_1.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button1 a:hover {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_msntoday_2.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button2 a {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_hotmail_1.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button2 a:hover {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_hotmail_2.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button3 a {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_webmsn_1.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button3 a:hover {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_webmsn_2.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button4 a {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_skydriv_1.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button4 a:hover {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_skydriv_2.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button5 a {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_wlsharing_1.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+body#gadget.docked div#icon_button5 a:hover {
+	width: 24px;
+	height: 24px;
+	background: url(images/icon_wlsharing_2.png) no-repeat;
+	float: left;
+	margin: auto 2px auto auto;
+	display: block;
+}
+
+/* Search Bar */
+
+body#gadget.docked div#search_all {
+	width: 126px;
+	height: 25px;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+body#gadget.docked div#search_left {
+	width: 105px;
+	height: 21px;
+	float: left;
+	background-image: url(images/search_bar.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+body#gadget.docked div#search_right {
+	width: 21px;
+	height: 21px;
+	float: left;
+	background-image: url(images/search_icon.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+/* Friends */
+
+body#gadget.docked div#friend_layout_all {
+	width: 130px;
+	overflow: hidden;
+	margin: 2px auto auto 3px;
+}
+
+body#gadget.docked div#friend_titlebg {
+	width: 126px;
+	height: 21px;
+	margin: 0px auto auto auto;
+	background: url(images/friends_title_bg.png) no-repeat;
+}
+
+body#gadget.docked div#friend_title {
+	width: 108px;
+	height: 21px;
+	overflow: hidden;
+	margin: auto;
+}
+
+body#gadget.docked div#friend_text {
+	width: 61px;
+	height: 21px;
+	float: left;
+	margin: auto auto auto 3px;
+	background: url(images/friends_text.png) no-repeat;
+}
+
+body#gadget.docked div#friend_topbutton a {
+	width: 18px;
+	height: 21px;
+	float: left;
+	margin: auto auto auto 3px;
+	background: url(images/friends_topbutton_1.png) no-repeat;
+	display: block;
+}
+
+body#gadget.docked div#friend_topbutton a:hover {
+	width: 18px;
+	height: 21px;
+	float: left;
+	margin: auto auto auto 3px;
+	background: url(images/friends_topbutton_2.png) no-repeat;
+}
+
+body#gadget.docked div#friend_bottom a {
+	width: 18px;
+	height: 21px;
+	float: left;
+	margin: auto;
+	background: url(images/friends_bottom_1.png) no-repeat;
+	display: block;
+}
+
+body#gadget.docked div#friend_bottom a:hover {
+	width: 18px;
+	height: 21px;
+	float: left;
+	margin: auto;
+	background: url(images/friends_bottom_2.png) no-repeat;
+}
+
+body#gadget.docked div#gadgetBody {
+	width: 126px;
+	height: 82px;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+body#gadget.docked div#friend_bottom_bg {
+	width: 126px;
+	height: 17px;
+	background: url(images/friends_bottom_bg.png) no-repeat;
+	margin: auto;
+}
+
+/* MSN */
+
+body#gadget.docked div#msn_qa {
+	cursor: pointer;
+	width: 55px;
+	height: 60px;
+	background: url(images/msn_qa.png) no-repeat;
+	margin: auto;
+	float: right;
+}
+
+/* AD text */
+
+.ad_text {
+	width: 110px;
+	height: 18px;
+	margin: 0px auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.ad_text a:link {
+	color: #ffffff;
+}
+
+.ad_text a:visited {
+	color: #ffffff;
+}
+
+.ad_text a:hover {
+	color: #ffffff;
+}
+
+.ad_text a:active {
+	color: #ffffff;
+}
+
+/* RSS Subscribe*/
+
+body#gadget.docked div#rss_bg {
+	width: 126px;
+	height: 22px;
+	margin: auto;
+	background-image: url(images/rss_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 1px;
+	overflow: hidden;
+}
+
+body#gadget.docked div#rss_textin {
+	width: 120px;
+	height: 20px;
+	margin: auto;
+}
+
+body#gadget.docked div#rss_textin * {
+	vertical-align: middle;
+	height: 22px;
+	padding-top: 2px;
+}
+
+body#gadget.docked div#rss_textin I {
+	height: 20px;
+	display: inline-block;
+}
+
+.rss_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f2ffbf;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.rss_title a:link {
+	color: #f2ffbf;
+}
+
+.rss_title a:visited {
+	color: #f2ffbf;
+}
+
+.rss_title a:hover {
+	color: #f2ffbf;
+}
+
+.rss_title a:active {
+	color: #f2ffbf;
+}
+
+.rss_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	line-height: 1.8em;
+	margin-right: 10px;
+}
+
+.rss_text a:link {
+	color: #ffffff;
+}
+
+.rss_text a:visited {
+	color: #ffffff;
+}
+
+.rss_text a:hover {
+	color: #ffffff;
+}
+
+.rss_text a:active {
+	color: #ffffff;
+}
+
+body#gadget.undocked div#main_all_layout {
+	overflow: hidden;
+	margin: 0px 0px 0px 182px;
+	position: absolute;
+	z-index: 3;
+	visibility: visible;
+}
+
+body#gadget.undocked div#main_logo {
+	width: 130px;
+	height: 26px;
+	margin: 5px auto 5px 15px;
+	background: url(images/main_logo.png) no-repeat;
+}
+
+body#gadget.undocked div#main_color {
+	visibility: hidden;
+}
+
+body#gadget.docked div#main_color {
+	visibility: hidden;
+}
+
+body#gadget.undocked div#main_icon_layout {
+	width: 240px;
+	height: 26px;
+	margin: auto auto auto 15px;
+	overflow: hidden;
+}
+
+/* icon */
+
+body#gadget.undocked div#main_icon1 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_msntoday_1.png) no-repeat;
+	display: block;
+	margin: auto 8px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_icon1 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_msntoday_2.png) no-repeat;
+	display: block;
+	margin: auto 8px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_icon2 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_hotmail_1.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon2 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_hotmail_2.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon3 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_webmsn_1.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon3 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_webmsn_2.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon4 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_wlsharing_1.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon4 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_wlsharing_2.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon5 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_skydriv_1.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon5 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_skydriv_2.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon6 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_spaces_1.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon6 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_spaces_2.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon7 a {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_wldownload_1.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_icon7 a:hover {
+	width: 26px;
+	height: 26px;
+	background: url(images/bicon_wldownload_2.png) no-repeat;
+	display: block;
+	float: left;
+	margin: auto 8px auto auto;
+}
+
+body#gadget.undocked div#main_search_all {
+	width: 230px;
+	height: 20px;
+	margin: 8px auto 8px 15px;
+}
+
+body#gadget.undocked div#main_search_left {
+	width: 207px;
+	height: 20px;
+	margin: auto;
+	background: url(images/main_search_bar1.png) no-repeat;
+	float: left;
+	display: block
+}
+
+body#gadget.docked div#main_search_left {
+	display: none
+}
+
+body#gadget.undocked div#main_search_right {
+	width: 23px;
+	height: 20px;
+	margin: auto;
+	background: url(images/main_search_bar2.png) no-repeat;
+	float: right;
+	cursor: pointer;
+}
+
+body#gadget.undocked div#main_color_title {
+	width: 154px;
+	height: 16px;
+	margin: 8px auto 1px 7px;
+	text-align: left;
+}
+
+.color_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #4b6c8f;
+	font-size: 12px;
+}
+
+body#gadget.undocked div#main_color1 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon1_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color1 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon1_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color2 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon2_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color2 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon2_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color3 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon3_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color3 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon3_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color4 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon4_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color4 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon4_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color5 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon5_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color5 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon5_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color6 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon6_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color6 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon6_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color7 a {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon7_1.png) no-repeat;
+	margin: auto 1px auto auto;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_color7 a:hover {
+	width: 20px;
+	height: 20px;
+	background: url(images/color_icon7_2.png) no-repeat;
+	margin: auto 1px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#main_color_button {
+	width: 154px;
+	height: 27px;
+	margin: 0px auto 5px 7px;
+	overflow: hidden;
+}
+
+body#gadget.undocked div#main_color_close a {
+	width: 72px;
+	height: 27px;
+	background: url(images/close_button1_1.png) no-repeat;
+	float: left;
+	margin: auto 3px auto auto;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_close a:hover {
+	width: 72px;
+	height: 27px;
+	background: url(images/close_button1_2.png) no-repeat;
+	float: left;
+	margin: auto 3px auto auto;
+}
+
+body#gadget.undocked div#main_color_ok a {
+	width: 72px;
+	height: 27px;
+	background: url(images/ok_button2_1.png) no-repeat;
+	float: left;
+	margin: auto;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_ok a:hover {
+	width: 72px;
+	height: 27px;
+	background: url(images/ok_button2_2.png) no-repeat;
+	float: left;
+	margin: auto;
+}
+
+body#gadget.undocked div#main_rss_all {
+	width: 229px;
+	height: 26px;
+	overflow: hidden;
+	margin: 0px auto 5px 15px;
+	display: block;
+}
+
+body#gadget.docked div#main_rss_all {
+	display: none;
+}
+
+body#gadget.undocked div#main_rss_left a {
+	width: 25px;
+	height: 29px;
+	background: url(images/rss_icon1.png) no-repeat;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_rss_left a:hover {
+	width: 25px;
+	height: 29px;
+	background: url(images/rss_icon2.png) no-repeat;
+	display: block;
+	float: left;
+}
+
+body#gadget.undocked div#main_rss_right {
+	width: 204px;
+	height: 29px;
+	background: url(images/main_rss_bg.png) no-repeat;
+	float: right;
+}
+
+body#gadget.undocked div#main_rss_right {
+	width: 204px;
+	height: 29px;
+	margin: auto;
+}
+
+body#gadget.undocked div#main_rss_right * {
+	vertical-align: middle;
+}
+
+body#gadget.undocked div#main_rss_right I {
+	height: 29px;
+	display: inline-block;
+}
+
+body#gadget.undocked div#friend_layout_all {
+	margin-left: 15px;
+	overflow: hidden;
+	width: 235px;
+}
+
+body#gadget.undocked div#friend_titlebg {
+	-moz-background-clip: border;
+	-moz-background-origin: padding;
+	-moz-background-inline-policy: continuous;
+	background-origin: initial;
+	background-clip: initial;
+	background: transparent url(images/friend_title_bg.png) no-repeat scroll 0 0;
+	height: 26px;
+	margin: auto;
+	text-align: center;
+	width: 235px;
+}
+
+body#gadget.undocked div#friend_title {
+	height: 26px;
+	margin: auto;
+	overflow: hidden;
+	width: 120px;
+	text-align: center;
+}
+
+body#gadget.undocked div#friend_text {
+	-moz-background-clip: border;
+	-moz-background-origin: padding;
+	-moz-background-inline-policy: continuous;
+	background-origin: initial;
+	background-clip: initial;
+	background: transparent url(images/friend_title_text.png) no-repeat scroll 0 0;
+	float: left;
+	height: 26px;
+	margin: auto 6px auto auto;
+	width: 76px;
+}
+
+body#gadget.undocked div#friend_topbutton a {
+	-moz-background-clip: border;
+	-moz-background-origin: padding;
+	-moz-background-inline-policy: continuous;
+	background-origin: initial;
+	background-clip: initial;
+	background: transparent url(images/friend_top1.png) no-repeat scroll 0 0;
+	display: block;
+	float: left;
+	height: 26px;
+	margin: auto 6px auto auto;
+	width: 16px;
+}
+
+body#gadget.undocked div#friend_topbutton a:hover {
+	width: 16px;
+	height: 26px;
+	background: url(images/friend_top2.png) no-repeat;
+	margin: auto 6px auto auto;
+	float: left;
+}
+
+body#gadget.undocked div#friend_bottom a {
+	-moz-background-clip: border;
+	-moz-background-origin: padding;
+	-moz-background-inline-policy: continuous;
+	background-origin: initial;
+	background-clip: initial;
+	background: transparent url(images/friend_bottom1.png) no-repeat scroll 0 0;
+	display: block;
+	float: left;
+	height: 26px;
+	margin: auto;
+	width: 16px;
+}
+
+body#gadget.undocked div#friend_bottom a:hover {
+	width: 16px;
+	height: 26px;
+	background: url(images/friend_bottom2.png) no-repeat;
+	margin: auto;
+	float: left;
+}
+
+body#gadget.undocked div#gadgetBody {
+	background-color: #FFFFFF;
+	height: 122px;
+	margin: auto;
+	overflow: hidden;
+	width: 235px;
+}
+
+body#gadget.undocked div#friend_bottom_bg {
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-background-origin: padding;
+	background: transparent url(images/friend_bottom_bg.png) no-repeat scroll 0 0;
+	background-origin: initial;
+	background-clip: initial;
+	height: 17px;
+	width: 235px;
+}
+
+body#gadget.undocked div#main_bottom_all {
+	width: 260px;
+	height: 105px;
+	overflow: hidden;
+	margin-top: -3px;
+}
+
+body#gadget.docked div#main_bottom_all {
+	display: none;
+}
+
+body#gadget.undocked div#main_color_icon7 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color7_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon7 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color7_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_color_icon2 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color2_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon2 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color2_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_color_icon1 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color1_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon1 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color1_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_color_icon3 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color3_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon3 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color3_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_color_icon4 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color4_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon4 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color4_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_color_icon5 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color5_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon5 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color5_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_color_icon6 a {
+	width: 30px;
+	height: 26px;
+	background: url(images/color6_button1.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+	display: block;
+}
+
+body#gadget.undocked div#main_color_icon6 a:hover {
+	width: 30px;
+	height: 26px;
+	background: url(images/color6_button2.png) no-repeat;
+	float: left;
+	margin: 79px auto 0px 0px;
+}
+
+body#gadget.undocked div#main_adtext {
+	width: 125px;
+	height: 20px;
+	margin: 79px auto 0px 5px;
+	float: left;
+}
+
+body#gadget.undocked div#main_msnqa a {
+	width: 88px;
+	height: 98px;
+	background: url(images/main_msn_qa.png) no-repeat;
+	float: left;
+	margin: 0px auto 8px auto;
+	display: block;
+}
+
+body#gadget.undocked div#main_msnqa a:hover {
+	width: 88px;
+	height: 98px;
+	background: url(images/main_msn_qa2.png) no-repeat;
+	float: left;
+	margin: 0px auto 8px auto;
+}
+
+body#gadget.docked div#main_rss {
+	visibility: hidden;
+}
+
+body#gadget.undocked div#main_rss {
+	visibility: hidden;
+}
+
+body#gadget.undocked div#main_rss_bookingall {
+	width: 155px;
+	height: 20px;
+	margin: 10px auto auto 8px;
+	overflow: hidden;
+}
+
+body#gadget.undocked div#rss_booking_icon {
+	width: 16px;
+	height: 20px;
+	background: url(images/rss_logo.png) no-repeat;
+	float: left;
+	margin: 0px 3px auto auto;
+}
+
+body#gadget.undocked div#rss_booking_text {
+	width: 133px;
+	height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #4b6c8f;
+	font-size: 12px;
+	float: right;
+	margin: 2px auto;
+}
+
+.rss_icon1 {
+	width: 110px;
+	height: 18px;
+	margin: 2px auto 3px 8px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: 600;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+body#gadget.undocked div#main_rss_button {
+	width: 150px;
+	height: 27px;
+	margin: 12px auto 5px 7px;
+	overflow: hidden;
+}
+
+body#gadget.undocked div#main_rss_close a {
+	width: 72px;
+	height: 27px;
+	background: url(images/close_button1_1.png) no-repeat;
+	float: left;
+	margin: auto 3px auto auto;
+	display: block;
+}
+
+body#gadget.undocked div#main_rss_close a:hover {
+	width: 72px;
+	height: 27px;
+	background: url(images/close_button1_2.png) no-repeat;
+	float: left;
+	margin: auto 3px auto auto;
+}
+
+body#gadget.undocked div#main_rss_ok a {
+	width: 72px;
+	height: 27px;
+	background: url(images/ok_button2_1.png) no-repeat;
+	float: left;
+	margin: auto;
+	display: block;
+}
+
+body#gadget.undocked div#main_rss_ok a:hover {
+	width: 72px;
+	height: 27px;
+	background: url(images/ok_button2_2.png) no-repeat;
+	float: left;
+	margin: auto;
+}
+
+#rss_small_marquee,
+#rss_main_marquee {
+	white-space: nowrap;
+}
+
+#rss_small_marquee *,
+#rss_main_marquee * {
+	display: inline;
+}
